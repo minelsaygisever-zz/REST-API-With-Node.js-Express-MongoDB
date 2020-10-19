@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5f8da7d4606e172f3c43aaac
+
+###
+
+POST http://localhost:3000/subscribers 
+Content-Type: application/json
+
+{
+    "name": "Minel SAYGISEVER",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5f8d83d6aae4043a84fff06c
+
+###
+PATCH http://localhost:3000/subscribers/5f8da7d4606e172f3c43aaac
+Content-Type: application/json
+
+{
+    "name": "Luna"
+}
